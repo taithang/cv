@@ -1,0 +1,372 @@
+.bigpage {
+    background-color: #0e002b;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+header {
+    height: 3rem;
+    background-color: #0e002b;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 70%;
+    background-color: azure;
+}
+
+.left .left1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left .left1 img {
+    width: 100%;
+    max-width: 140px;
+    margin: 20px;
+}
+
+.left .left1 div {
+    margin-left: 20px;
+}
+
+.left .left1 h1,
+.left .left1 h3 {
+    color: #0e002b;
+    padding-top: 20px;
+}
+
+.left .left1 h3 {
+    margin-top: -30px;
+}
+
+.left2 {
+    margin: 0px 20px;
+}
+
+.left2 h4 {
+    background-color: #0e002b;
+    color: aliceblue;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.left2 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.left3 {
+    margin: 0px 20px;
+}
+
+.left3 h4 {
+    background-color: #0e002b;
+    color: aliceblue;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.left3 p {
+    margin: 0;
+}
+
+.left3 p:last-of-type {
+    font-weight: bold;
+}
+
+.left3 p:nth-of-type(1) {
+    font-weight: bold;
+}
+
+.left3 span {
+    padding-right: 12px;
+    border-right: 2px solid black;
+}
+
+.left4 {
+    margin: 0px 20px;
+}
+
+.left4 h4 {
+    background-color: #0e002b;
+    color: aliceblue;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.left4 span {
+    font-weight: bold;
+}
+
+.left4 span:nth-of-type(1) {
+    font-size: 20px;
+}
+
+.left5 {
+    margin: 0px 20px;
+}
+
+.left5 h4 {
+    background-color: #0e002b;
+    color: aliceblue;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.left6 {
+    margin: 0px 20px;
+}
+
+.left6 h4 {
+    background-color: #0e002b;
+    color: aliceblue;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.right {
+    width: 30%;
+    margin: 20px;
+}
+
+.right1 {
+    border-bottom: 1px solid #6498bb;
+    padding-bottom: 20px;
+
+}
+
+.right1 span {
+    color: #6498bb;
+
+}
+
+.right1 i {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.right1 p {
+    color: aliceblue;
+}
+
+.right2 p {
+    color: #6498bb
+}
+
+.right2 div p {
+    color: aliceblue;
+}
+
+.right2 {
+    border-bottom: 1px solid #6498bb;
+    padding-bottom: 40px;
+}
+
+.nghe {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    /* border-radius: 5px 5px 5px 5px;
+    border: 1px; */
+}
+
+.nghe div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.nghe div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.noi {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.noi div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.noi div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.doc {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.doc div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.doc div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.viet {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.viet div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.viet div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.right3 {
+    border-bottom: 1px solid #6498bb;
+    padding-bottom: 40px;
+}
+
+.right3 p {
+    color: #6498bb
+}
+
+.right3 div p {
+    color: aliceblue;
+}
+
+.Words {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    /* border-radius: 5px 5px 5px 5px;
+    border: 1px; */
+}
+
+.Words div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.Words div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.Excel {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.Excel div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.Excel div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.PowerPoint {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.PowerPoint div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.PowerPoint div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.Outlook {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.Outlook div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.Outlook div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.right3 p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.Html {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.Html div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.Html div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.JavaScript {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.JavaScript div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.JavaScript div:last-of-type {
+    background-color: #0c2a3e;
+}
+
+.React {
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+}
+
+.React div {
+    background-color: #6498bb;
+    height: 10px;
+    width: 25%;
+}
+
+.React div:last-of-type {
+    background-color: #0c2a3e;
+}
+footer {
+    width: 100%;
+    background-color: #0e002b;
+    height: 3rem;
+}
